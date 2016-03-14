@@ -1,0 +1,290 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header .top{
+	height: 145px;
+	background-color: #000000;
+}
+.top_main{
+	width: 973px;
+	height: 145px;
+	margin: 0 auto;
+}
+.logo{
+	line-height: 145px;
+	padding-top: 25px;
+	float: left;
+}
+.nav{
+	width: 522px;
+	height: 145px;
+	float: left;
+}
+.nav ul li{
+	list-style: none;
+	float: left;
+	margin-top:67px;
+	margin-left: 25px;
+	color:#7f7b74;
+}
+.nav ul li:hover{
+	border-bottom: 1px solid #cc2700;
+}
+.banner{
+	height: 348px;
+	background-image: url(../images/17.gif);
+}
+.banner_main{
+	width: 943px;
+	height: 348px;
+	margin: 0 auto;
+}
+.welcom{
+	width: 611px;
+	height: 348px;
+}
+@font-face {
+	font-family: "trebuc.ttf";
+	src:url(../font/trebuc.ttf);}
+.welcom .t1{
+	width: 611px;
+	height: 56px;
+	padding-top: 61px;
+	font-family: "trebuc.ttf";
+	color: #ffffff;
+}
+.welcom .p1{
+	font-family: "trebuc.ttf";
+	color:#7f7f7f;
+	height: 119px;
+	width: 611px;
+}
+.welcom a{
+	text-decoration: none;
+	color: #a42700;
+}
+.welcom input{
+	width: 106px;
+	height: 41px;
+	background-color: #d84400;
+	color:#ffffff;
+	font-size: 20px;
+}
+.banner_main .pic1{
+	position: absolute;
+	top:110px;
+	left:800px;
+}
+#container{
+	height: 900px;
+	background-image: url(../images/18.gif);
+}
+.container_top{
+	width: 941px;
+	height: 259px;
+	margin: 0 auto;
+}
+.container_top .top_left{
+	width: 320px;
+	height: 219px;
+	float: left;
+	padding-top: 40px;
+}
+.container_top .top_mid{
+	width: 320px;
+	height: 219px;
+	float: left;
+	padding-top: 40px;
+}
+.container_top .top_right{
+	width: 301px;
+	height: 219px;
+	float: left;
+	padding-top: 40px;
+}
+.container_center{
+	width: 941px;
+	height: 315px;
+	margin: 0 auto;
+}
+.center_left{
+	width: 640px;
+	height: 315px;
+	float: left;
+}
+.center_left .next{
+	height: 61px;
+	line-height: 61px;
+	color: white;
+}
+.t2{
+	width: 640px;
+	height: 254px;
+}
+.pic2{
+	width: 81px;
+	height: 254px;
+	float: left;
+}
+.t3{
+	width: 524px;
+	height: 254px;
+	float:left;
+	font-family: "trebuc.ttf";
+	color:#7f7f7f;
+}
+.t3 span{
+	color:white;
+}
+.stet{
+	margin-top: 24px;
+}
+.center_right{
+	width: 301px;
+	height: 315px;
+	float: right;
+}
+.our h1{
+	width: 279px;
+	height: 49px;
+	background-color: #000;
+	color: white;
+	line-height: 49px;
+	padding-left:22px;
+}
+.list{
+	width: 283px;
+	height: 266px;
+	float: right;
+}
+.list ul li{
+	background-image: url(../images/19.gif);
+	background-repeat: no-repeat;
+	list-style: none;
+	padding-left: 10px;
+	background-position: left center;
+	border-bottom: 1px dotted white;
+	line-height: 30px;
+	color: white;
+}
+ .t3 input{
+	width: 106px;
+	height: 41px;
+	background-color: #d84400;
+	color:#ffffff;
+	font-size: 20px;
+	margin-top: 29px;
+}
+.container_bottom{
+	width: 941px;
+	height: 322px;
+	margin: 0 auto;
+}
+.bottom_first{
+	width: 81px;
+	height: 322px;
+	float: left;
+}
+.pic3{
+	margin-top: 32px;
+}
+.bottom_second{
+	width: 240px;
+	height: 322px;
+	float: left;
+}
+.bottom_second .pic4{
+	margin-top: 32px;
+}
+.bottom_second input{
+	width: 106px;
+	height: 41px;
+	background-color: #d84400;
+	color:#ffffff;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.bottom_third{
+	width: 319px;
+	height: 322px;
+	float: left;
+}
+.bottom_third .t4{
+	margin-top: 32px;
+	font-family: "trebuc.ttf";
+	color:#7f7f7f;
+}
+.bottom_third .t4 span{
+	color: white;
+}
+.bottom_forth{
+	width: 301px;
+	height: 322px;
+	float: left;
+}
+.bottom_forth .box{
+	width: 301px;
+	height: 232px;
+	background-color: #0e0e0e;
+	margin-top: 32px;
+
+}
+
+.box h2{
+	width: 301px;
+	height: 55px;
+	margin-left: 20px;
+	line-height: 55px;
+	color:#dcdcdc;
+}
+.box .pic5{
+	margin-left: 20px;
+}
+.box h3{
+	margin-left: 20px;
+	margin-top: 18px;
+	color: white;
+}
+.box .t5{
+	color:#7f7f7f;
+	margin-left: 20px;
+	font-family: "trebuc.ttf";
+}
+#footer{
+	height: 116px;
+	background-image: url(../images/17.gif);
+}
+.footer_main{
+	height: 116px;
+	width: 943px;
+	margin: 0 auto;
+}
+.footer_left{
+	height: 116px;
+	width: 320px;
+	float: left;
+	margin-left:175px;
+	color:#7b7f7f;
+}
+.t6{
+	margin-top:35px;
+	margin-left:66px;
+}
+.t7{
+	line-height: 30px;
+}
+.t8{
+	color:#c92800;
+}
+.footer_right{
+	height: 116px;
+	width: 300px;
+	float: right;
+}
+.footer_right .pic6{
+	margin-left:84px;
+}
+.footer_right img{
+	margin-top: 49px;
+}

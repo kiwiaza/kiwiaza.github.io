@@ -1,0 +1,268 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	height: 721px;
+
+}
+#header .top{
+	width: 905px;
+	height: 80px;
+	margin: 0 auto;
+}
+@font-face{
+	font-family:"Chunkfive.otf";
+	src:url(../font/Chunkfive.otf);
+}
+#header .top .logo{
+	width: 179px;
+	height: 80px;
+	float: left;
+	text-align: center;
+	line-height: 80px;
+	font-size: 28px;
+	color:#ffffff;
+	font-family:"Chunkfive.otf";
+	background-color: #db373b;
+
+}
+#header .top .nav{
+	width: 726px;
+	height: 80px;
+	float: left;
+}
+@font-face{
+	font-family:"helvetiva.otf";
+	src:url(../font/helvetiva.otf);}
+#header .nav h3{
+	font-family: "helvetiva.otf";
+	font-size: 18px;
+	width: 40px;
+	height: 25px;
+	border-bottom: 3px solid #080707;
+	margin-top: 30px;
+	margin-left:42px;
+	float: left;
+}
+#header .top .nav ul{
+	width: 310px;
+	height: 80px;
+	float: left;
+
+}
+#header .top .nav ul li{
+	list-style: none;
+	float: left;
+	padding-left: 15px;
+	text-align: center;
+	line-height: 80px;
+	font-family: "helvetiva.otf";
+	font-size: 18px;
+}
+#header .banner{
+	height: 641px;
+}
+.pic1{
+
+	width: 100px;
+	height: 430px;
+	float: left;
+}
+.pic1 {
+	position: absolute;
+	top:275px;
+	left:150px;
+}
+.pic2 {
+	position: absolute;
+	top:275px;
+	left:1199px;
+}
+.pic3 {
+	position: absolute;
+	top:427px;
+	left:230px;
+}
+.pic4 {
+	position: absolute;
+	top:427px;
+	left:470px;
+}
+.pic5 {
+	position: absolute;
+	top:108px;
+	left:770px;
+}
+.pic6 {
+	position: absolute;
+	top:641px;
+	left:648px;
+}
+#header .banner .banner_top{
+	width: 905px;
+	height: 430px;
+	margin: 0 auto;
+}
+#header .banner .banner_top .box{
+	width: 498px;
+	height: 430px;
+}
+
+#header .banner .banner_top h1{
+	font-size: 48px;
+	font-family:"Chunkfive.otf";
+	height: 130px;
+	width: 620px;
+	text-align: left;
+	line-height: 160px;
+}
+#header .banner .banner_top p{
+	font-family:"Times New Roman", Times, serif;
+	font-size: 18px;
+}
+#header .banner .banner_bottom{
+	height: 211px;
+	background-image: url(../images/3.gif);
+}
+#container{
+	height:389px;
+	background-image: url(../images/1.gif);
+}
+#container .main{
+	width: 905px;
+	height: 389px;
+	margin: 0 auto;
+}
+#container .container_left{
+	width: 600px;
+	height: 389px;
+	float: left;
+}
+@font-face{
+	font-family:"Chunkfive.otf";
+	src:url(../font/Chunkfive.otf);}
+#container .container_left h2{
+	width: 600px;
+	height: 63px;
+	font-family:"Chunkfive.otf";
+	font-size:24px;
+	padding-top: 43px;
+}
+@font-face{
+	font-family:"DroidSerif-Italic.ttf";
+	src:url(../font/DroidSerif-Italic.ttf);}
+#container .container_left .text_1{
+	width: 560px;
+	height: 71px;
+	font-size:16px;
+	font-family:"DroidSerif-Italic.ttf";
+}
+#container .container_left .text_2{
+	width: 560px;
+	height: 115px;
+	font-size:16px;
+	font-family:"DroidSerif-Italic.ttf";
+}
+#container .container_right{
+	width: 305px;
+	height: 389px;
+	float: left;
+}
+#container .container_right h2{
+	width: 305px;
+	height: 63px;
+	font-family:"Chunkfive.otf";
+	font-size:24px;
+	padding-top: 43px;
+}
+#container .container_right .list{
+	width: 305px;
+	height: 63px;
+}
+#container .container_right .list_1 .aug1{
+	width: 63px;
+	height: 53px;
+	background-image: url(../images/9.gif);
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+}
+ .aug1 span{
+	display: block;
+}
+#container .container_right .list_1 .au1{
+	width: 242px;
+	height: 53px;
+	float: left;
+	font-family:"DroidSerif-Italic.ttf";
+	padding-top: 10px;
+
+}
+#container .container_right .list_2 .aug2{
+	width: 63px;
+	height: 53px;
+	background-image: url(../images/9.gif);
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+}
+.aug2 span{
+	display: block;
+}
+#container .container_right .list_2 .au2{
+	width: 242px;
+	height: 53px;
+	float: left;
+	font-family:"DroidSerif-Italic.ttf";
+	padding-top: 10px;
+}
+#container .container_right .list_3 .aug3{
+	width: 63px;
+	height: 53px;
+	background-image: url(../images/9.gif);
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+}
+.aug3 span{
+	display: block;
+}
+#container .container_right .list_3 .au3{
+	width: 242px;
+	height: 53px;
+	float: left;
+	font-family:"DroidSerif-Italic.ttf";
+	padding-top: 10px;
+}
+#footer{
+	height: 90px;
+	background-image: url(../images/7.gif);
+}
+#footer .center{
+	width: 905px;
+	height: 90px;
+	margin: 0 auto;
+}
+#footer .center .center_left{
+	height: 90px;
+	line-height: 90px;
+	float: left;
+	font-size: 14px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#footer .center .center_right{
+
+	height: 90px;
+	float: right;
+}
+
+#footer .center .center_right ul li{
+	font-size: 14px;
+	font-family:Arial, Helvetica, sans-serif;
+	float: left;
+	list-style: none;
+	line-height: 90px;
+	margin-left: 15px
+
+}
