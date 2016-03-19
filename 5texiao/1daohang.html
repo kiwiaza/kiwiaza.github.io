@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+ 	*{
+ 		margin:0px;
+ 		padding: 0px;
+ 	}
+ 	.box{
+		width: 200px;
+		height: 200px;
+		background-color: #f00;
+ 	}
+ 	.list{
+ 		margin-left: 200px;
+
+ 	}
+ 	.list li{
+ 		list-style: none;
+ 		float: left;
+ 		margin-left: 20px;
+ 		border: 1px solid red;
+ 		width: 50px;
+ 		height: 50px;
+
+		overflow: hidden;
+ 	}
+ 	.box1{
+ 		width: 50px;
+ 		height: 50px;
+ 		background-color: red;
+ 		text-align: center;
+ 		line-height: 50px;
+
+ 	}
+ 	.box2{
+ 		width: 50px;
+ 		height: 50px;
+ 		background-color: yellow;
+ 		text-align: center;
+ 		line-height: 50px;}
+ 	</style>
+</head>
+<body>
+
+	<input type="button" value="菜单" id="animate">
+	<ul class="list">
+		<li >
+			<div class="box1">开始</div>
+			<div class="box2">开始</div>
+		</li>
+		<li>
+			<div class="box1">过程</div>
+			<div class="box2">过程</div>
+		</li>
+		<li>
+			<div class="box1">结束</div>
+			<div class="box2">结束</div>
+		</li>
+	</ul>
+
+	<div class="box"></div>
+	<script src="jquery-1.11.1.js"></script>
+	<script>
+	$("#animate").click(function(){
+		$(".box").animate({"margin-left":"200px"},5000);
+	})//点击菜单红色盒子向右移动200
+	$(".list li").mouseenter(function(){
+		$(".box1").animate({"margin-top":"-50px"},500)}).mouseleave(function(){
+			$(".box1").stop().animate({"margin-top":"0px"},500);
+		})
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>鼠标移入移除</title>
+ 	<style type="text/css">
+ 	*{
+ 		margin:0px;
+ 		padding: 0px;
+ 	}
+ 	.list {
+ 		list-style: none;
+ 		margin-left: 30px;
+ 		text-align: center;
+		/*line-height: 40px;*/
+		background-color: #2FEB0B;
+		width: 100px;
+		float: left;
+		border: 1px solid red;
+ 	}
+	.list1{
+
+		list-style: none;
+		display: none;
+
+		margin-top: 10px;
+
+	}
+
+
+ 	</style>
+ </head>
+ <body>
+ 		<ul>
+ 			<li class="list">开始
+ 				<ul class="list1">
+ 					<li>语文</li>
+ 					<li>数学</li>
+ 					<li>化学</li>
+ 					<li>五路</li>
+
+ 				</ul>
+ 			</li >
+ 			<li class="list">结束
+ 				<ul class="list1">
+ 					<li>托付给</li>
+ 					<li>聚过会</li>
+ 					<li>聚过</li>
+ 					<li>人受伤</li>
+ 					<li>面积</li>
+ 				</ul>
+ 			</li>
+ 			<li class="list">编辑
+ 				<ul class="list1">
+ 					<li>回家</li>
+ 					<li>看机会</li>
+ 					<li>二</li>
+ 					<li>你开好</li>
+ 					<li>发光的人</li>
+ 				</ul>
+ 			</li>
+ 		</ul>
+
+
+ 	<script src="jquery-1.11.1.js"></script>
+ 	<script>
+ 	$(".list").mouseenter(function(){
+ 		$(this).find(".list1").stop().slideDown(1000).css("background-color","red")
+
+ 	})
+
+ 	$(".list").mouseleave(function(){
+ 		$(this).find(".list1").stop().slideUp(500)
+ 	})
+ 	</script>
+ </body>
+ </html>
