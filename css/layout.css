@@ -600,11 +600,15 @@ button.alt-2:hover {
 	float: left;
 }
 
-.form .graph ul.graph-set li {
+.form .graph .graph-set li {
     background: #fff;
     width: 300px;
     height: 18px;
     padding: 5px 5px 5px 0;
     border: 3px solid #fff;
     margin-bottom: 10px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
