@@ -1,0 +1,383 @@
+*{
+	margin: 0%;
+	padding: 0%;
+
+}
+html,body{
+	font-size: 10px;
+}
+@font-face{
+	font-family: myfont1;
+	src:url(../fonts/BebasNeue-webfont.eot),
+		url(../fonts/BebasNeue-webfont.svg),
+		url(../fonts/BebasNeue-webfont.ttf),
+		url(../fonts/BebasNeue-webfont.woff);
+}
+@font-face{
+	font-family: myfont2;
+	src:url(../fonts/ColabThi-webfont.eot),
+		url(../fonts/ColabThi-webfont.svg),
+		url(../fonts/ColabThi-webfont.ttf),
+		url(../fonts/ColabThi-webfont.woff);
+}
+@font-face{
+	font-family: myfont3;
+	src:url(../fonts/Vera-webfont.eot),
+		url(../fonts/Vera-webfont.svg),
+		url(../fonts/Vera-webfont.ttf),
+		url(../fonts/Vera-webfont.woff);
+}
+#container{
+	width: 96%;
+	margin:0 auto;
+	/*border: 1px solid red;*/
+
+}
+/*头部*/
+header{
+	height: 180px;
+	background-image: url(../images/1.jpg);
+	background-repeat: repeat-x;
+}
+header .top{
+	height: 107px;
+	padding-top:43px;
+}
+header h1{
+	font-family: myfont1;
+	font-size: 5.2rem;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 0 #a2a0a1;
+	line-height: 107px;
+	font-weight: 500;	}	header h1 span{
+	color:#dfd9d9;	}	/*导航*/	header .nav{
+	/*width: 960px;*/
+	height: 30px;
+	/*width: 102.1276%;*/
+	/*margin: 0 auto;*/
+
+	background: -webkit-linear-gradient(#f7f7f7,#e3e3e3);
+	background: -o-linear-gradient(#f7f7f7,#e3e3e3);
+	background: -moz-linear-gradient(#f7f7f7,#e3e3e3); /* Firefox 3.6 - 15 */
+	background: linear-gradient(#f7f7f7,#e3e3e3); /* Opera 11.1 - 12.0 */ /* Firefox 3.6 - 15 */ /* 标准的语法 */
+}
+header .navlist{
+	list-style: none;
+	/*width: 938px;*/
+	width: 97.9166%;
+	margin: 0 auto;
+
+}
+
+header .navlist li{
+	float: left;
+	font-size: 2.5rem;
+	font-family: myfont1;
+}
+header .navlist li:nth-child(1){
+	color: red;
+	width: 5.5208%;/*53/960*/
+	margin-right: 6.1702%;/*58/940*/
+}
+header .navlist li:nth-child(2){
+	width: 8.9583%;/*86/960*/
+	margin-right:8.1914%;/*77/940*/
+}
+header .navlist li:nth-child(3){
+	width: 14.4791%;/*139/960*/
+	margin-right:8.1914%;/*90/940*/
+	color: red;
+}
+header .navlist li:nth-child(4){
+	width: 12.9166%;/*124/960*/
+	margin-right:10%;/*110/940*/
+}
+header .navlist li:nth-child(5){
+	width: 6.9791%;/*67/960*/
+	margin-right:10%;/*94/940*/
+	color: red;
+}
+header .navlist li:nth-child(6){
+	/*width: 4.2553%;*//*40/940*/
+	/*margin-right:1%;*//*12/940*/
+}
+/*主体部分 */
+section{
+	border-top:4px double #d5d5d5;
+
+	margin-top: 23px;
+	/*border-bottom:1px solid #d5d5d5;*/
+
+}
+/*左侧部分*/
+section aside{
+	/*239/960*/
+	width: 24.8958%;
+	/*height: 551px;*/
+	float: left;
+	margin-top: 22px;
+	box-shadow: 6px 7px 10px #575757;
+	background: -webkit-linear-gradient(#fff,#e3e3e3,#fff);
+	background: -o-linear-gradient(#fff,#e3e3e3,#fff);
+	background: -moz-linear-gradient(#fff,#e3e3e3,#fff); /* Firefox 3.6 - 15 */
+	background: linear-gradient(#fff,#e3e3e3,#fff); /* Opera 11.1 - 12.0 */ /* Firefox 3.6 - 15 */ /* 标准的语法 */
+	padding-bottom: 2%;
+
+}
+.clearfix:before,.clearfix:after{
+	display: block;
+	content: "";
+}
+.clearfix:after{
+	clear:both;
+}
+section .aside_top{
+	width: 91.2133%;
+	margin: 0 auto;
+
+}
+section .aside_bottom{
+	width: 91.2133%;/*218/239*/
+	margin: 0 auto;
+}
+aside h2{
+	margin-top:37px;
+	font-family: myfont1;
+	font-size: 3.8rem;
+	font-weight: 500;
+}
+.aside_bottom {
+	margin-top: 30px;
+}
+aside figure{
+	width: 45.4128%;/*99/218*/
+	float: left;
+	margin-top: 27px;
+
+}
+aside figure img{
+	width: 100%;
+}
+aside figure:first-child{
+	float: left;
+}
+aside figure:last-child{
+	float: right;
+}
+figure figcaption {
+	padding: 5px 0;
+	text-align: center;
+	background-color: #cdcdcd;
+	border-radius: 10px;
+	border: 2px solid #a29e9f;
+	margin-top:13px;
+
+}
+figure figcaption a{
+	text-decoration: none;
+	color: black;
+	font-size: 1rem;
+	font-family: myfont3;
+}
+/*文章部分*/
+section article{
+	/*678/960*/
+	width: 70.625%;
+	float: right;
+	margin-top:27px;
+}
+article .main_left{
+	float: left;
+	/*201/678*/
+	width: 29.6460%;
+	/*border: 1px solid red;*/
+}
+article .main_left img{
+	width: 100%;
+}
+article .main_right{
+	/*float: right;*/
+	/*477/678*/
+	width: 100%;
+	/*border: 1px solid red;*/
+}
+.main_right h1{
+	margin-top:58px;
+	font-family: myfont1;
+	font-size: 10rem;
+	font-weight: bold;
+	text-shadow:3px 3px 0px #d9d8d6;
+}
+.main_right h2{
+	color:#979596;
+	font-size: 4rem;
+	font-family: myfont2;
+}
+.main_right p{
+	color:#9a9a9a;
+	font-size: 2.5rem;
+	/*font-family: myfont3;*/
+	margin-top: 25px;
+
+}
+.main_right span{
+	font-weight: bold;
+}
+article a{
+	display: block;
+	border: 1px solid red;
+	border-radius: 10px;
+	background-color: #ee595d;
+	color: #fff;
+	text-decoration: none;
+	max-width:400px;
+	padding: 3%;
+	text-align: center;
+	margin-top: 34px;
+	font-size: 3rem;
+	font-family: myfont1;
+	box-shadow:6px 6px 7px #989898;
+	float: left;
+	width: 89%;
+}
+/*底部*/
+footer{
+	padding-top: 37px;
+	padding-bottom: 73px;
+	/*height: 124px;*/
+	background-image: url(../images/7.jpg);
+	background-repeat: repeat-x;
+	margin-top:17px;
+	background-position: bottom;
+	border-top: 4px double #d5d5d5;
+}
+
+footer p{
+	line-height: 1.5em;
+	text-align: center;
+	color:#adabac;
+	font-family: myfont1;
+	/*font-weight: bold;*/
+	font-size: 1.5rem;
+}
+/*响应式导航栏*/
+header img{
+	position: relative;
+	top:-2.7rem;
+	left:93.6458%;
+	display: none;
+}
+header .navlist1{
+	list-style: none;
+	/*width: 938px;*/
+	width: 97.9166%;
+	margin: 0 auto;
+	position: relative;
+	top: -3rem;
+	left:60%;
+	display: none;
+}
+
+header .navlist1 li{
+	font-size: 2.5rem;
+	font-family: myfont1;
+	width: 39.0625%;
+	background-color: #f00;
+}
+header .show{
+	display: block;
+}
+/*打断点*/
+@media screen and (min-width: 320px) and (max-width: 400px){
+	section aside,section article{
+		width: 100%;
+		float: none;
+	}
+	header h1{
+		font-size: 4rem;
+	}
+	aside h2{
+		font-size: 3rem;
+	}
+	.main_right h1{
+		font-size: 5rem;
+	}
+	.main_right h2{
+		font-size: 2rem;
+	}
+	.main_right p{
+		font-size: 2rem;
+	}
+	footer p{
+		font-size: 1.4rem;
+	}
+
+	header .navlist li{
+		display: none;
+	}
+	header img{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+	section aside,section article{
+		width: 100%;
+		float: none;
+	}
+	header h1{
+		font-size: 5rem;
+	}
+	aside h2{
+		font-size: 3.5rem;
+	}
+	.main_right h1{
+		font-size: 6rem;
+	}
+	.main_right h2{
+		font-size: 2.5rem;
+	}
+	.main_right p{
+		font-size: 2.2rem;
+	}
+	article a{
+		font-size: 3.5rem;
+	}
+	figure figcaption a{
+		font-size: 2rem;
+	}
+	footer p{
+		font-size: 2.5rem;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 800px){
+	section aside,section article{
+		width: 100%;
+		float: none;
+	}
+	header h1{
+		font-size: 9rem;
+	}
+	aside h2{
+		font-size: 5rem;
+	}
+	.main_right h1{
+		font-size: 11rem;
+	}
+	.main_right h2{
+		font-size: 5rem;
+	}
+	.main_right p{
+		font-size: 4rem;
+	}
+	article a{
+		font-size: 5.5rem;
+		max-width: none;
+	}
+	figure figcaption a{
+		font-size: 4rem;
+	}
+	footer p{
+		font-size: 4rem;
+	}
+}

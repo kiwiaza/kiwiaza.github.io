@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="style/test.css">
+
+</head>
+<body>
+	<div id="container">
+		<header>
+			<div class="top">
+				<h1>and the winner is<span>n't...</span></h1>
+			</div>
+			<div class="nav">
+				<ul class="navlist clearfix">
+					<li>WHY?</li>
+					<li>SYNOPSIS</li>
+					<li>STILLS/PHOTOS</li>
+					<li>VIDEOS/CLIPS</li>
+					<li>QUOTES</li>
+					<li>QUIZ</li>
+				</ul>
+			</div>
+			<!-- 手机端导航栏 -->
+			<img src="images/8.png" alt="">
+			<div class="nav1">
+				<ul class="navlist1 ">
+					<li>WHY?</li>
+					<li>SYNOPSIS</li>
+					<li>STILLS/PHOTOS</li>
+					<li>VIDEOS/CLIPS</li>
+					<li>QUOTES</li>
+					<li>QUIZ</li>
+				</ul>
+			</div>
+		</header>
+		<section class="clearfix">
+			<article class="clearfix">
+				<div class="main_left">
+					<img src="images/6.png" alt="">
+				</div>
+				<div class="main_right">
+					<h1>EVERY YEAR</h1>
+					<h2>WHEN I WATCH THE OSCARS I'M ANNOYED...</h2>
+					<p>that films like <span>KING KONG,Moulin Rouge </span> and <span>Munich</span> get the statue whilst the <u>real</u> cinematic heroes lose out.Not very Hollywood is it?We'are here to put things right.</p>
+
+				</div>
+				<a href="">THESE SHOULD HAVE WON >></a>
+			</article>
+			<aside class="clearfix">
+				<div class="aside_top clearfix">
+					<h2>UNSUNG HEROSES...</h2>
+					<figure>
+						<img src="images/2.png" alt="">
+						<figcaption><a href="#">full info</a></figcaption>
+					</figure>
+					<figure>
+						<img src="images/3.png" alt="">
+						<figcaption><a href="#">full info</a></figcaption>
+					</figure>
+				</div>
+				<div class="aside_bottom clearfix">
+					<h2>OVERHYPED NONSENSE...</h2>
+					<figure>
+						<img src="images/4.png" alt="">
+						<figcaption><a href="#">full info</a></figcaption>
+					</figure>
+					<figure>
+						<img src="images/5.png" alt="">
+						<figcaption><a href="#">full info</a></figcaption>
+					</figure>
+				</div>
+			</aside>
+
+		</section>
+		<footer>
+			<p>NOTE:OUR OPINION IS ABSOLUTELY CORRECT.YOU ARE WRONG,EVEN IF YOU THINK YOU ARE RIGHT.THAT'S A FACT.DEAL WITH IT.</p>
+		</footer>
+	</div>
+	<script src="jquery-1.11.1.js"></script>
+	<script>
+		$("header img").click(function(){
+			$("header .navlist1").toggleClass("show")
+			// alert("hah")
+		})
+	</script>
+</body>
+</html>

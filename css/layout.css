@@ -17,7 +17,9 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-
+audio{
+	display: none;
+}
  ul#main-menu a {
 	color: #2c2525;
 	text-decoration: none;
@@ -356,7 +358,7 @@ ul#portfolio img:hover {
 	padding-bottom: 5px;
 	padding-right: 3px;
 	opacity: 0.8;
-	width: 220px;
+	width: 212px;
 }
 
 /* Blog Styling */
